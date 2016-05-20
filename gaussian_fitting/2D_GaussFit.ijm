@@ -16,8 +16,8 @@
 
 ////Parameters:
 tol_feat_det = 10; //Tolerance parameter for rough feature finding. Lower will find more peaks.
-size_of_patch = 20; //Size of patch to fit Gaussian in. Should be 3-5x size of Gaussian sigma.
-display_output = true; //Set to true to output reconstructed patch and fit plot, for speed set to false.
+size_of_patch = 21; //Size of patch to fit Gaussian in. Should be 3-5x size of Gaussian sigma.
+display_output = false; //Set to true to output reconstructed patch and fit plot, for speed set to false.
 
 ////Instructions:
 // Open the test image named 2D_Gaus_sig4.png.
@@ -33,7 +33,8 @@ wid = getWidth();
 hei = getHeight();
 
 getSelectionCoordinates(xPoints,yPoints);
-
+out_xPoints = newArray(xPoints.length);
+out_yPoints = newArray(xPoints.length);
 for (v=0;v<xPoints.length;v++){
 selectWindow(title);
 x = newArray(size_of_patch*size_of_patch);
@@ -58,15 +59,21 @@ c = out[2]; //x0, x-position in patch
 d = out[3]; //b
 e = out[4]; //y0, y-position in patch
 
+//We want our point to be centered on the pixel not top-left, so we add 0.5.
+out_xPoints[v] = c+xPoints[v]-round(size_of_patch/2)+0.5;
+out_yPoints[v] = e+yPoints[v]-round(size_of_patch/2)+0.5;
+
 //OUTPUT
 print("Detected Foci: "+(v+1));
-print("A="+d2s(a,6)+", a="+d2s(b,6),", b="+d2s(d,6),", x0="+(c+xPoints[v])+", y0="+(e+yPoints[v]));
+print("A="+d2s(a,6)+", a="+d2s(b,6),", b="+d2s(d,6),", x0="+(out_xPoints[v])+", y0="+(out_yPoints[v]));
 print("sigma_x",d2s(sqrt(1/(b*2)),6),"sigma_xy","sigma_y",d2s(sqrt(1/(d*2)),6)); 
 print("FWHMx\t",sqrt(1/(2*b))*2.3548,"\tFWHMy\t",sqrt(1/(2*d))*2.3548);
 print("R^2="+d2s(Fit.rSquared,3));
 
 
 }
+
+makeSelection("points",out_xPoints,out_yPoints);
 
 function fit_gaussian_diag_cov(wid,hei,x,o,out){
 
