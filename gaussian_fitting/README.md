@@ -7,15 +7,15 @@ Copyright (c) 2016 Dominic Waithe.
 
 #### Introduction:
 
+Gaussian fitting is one of the most common procedures to perform in N-Dimensional signal analysis (i.e. 1-D sequences, 2-D images and 3-D volumes). The focus of this page is to provide ImageJ/Fiji macro scripts which can facilitate fitting of Gaussians to intensity data.
 
-#### General Requirements:
+##### General Requirements:
 Macros written for Fiji/ImageJ. If don't have Fiji, you can download  it here: imagej.net/Fiji/Downloads
-
 
 
 #### 2D_GaussFit.ijm
 
-##### Macro script for fitting 2D Gaussians (Diaganolly covariant)
+##### Macro script for fitting 2D Gaussians (Diagonally covariant)
 
 Please download the script entitled 2D_GaussFit.ijm and example input 2D_Gaus_sig4.png.
 Open both files in Fiji/Imagej by dragging to the toolbar.
