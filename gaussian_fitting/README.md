@@ -1,4 +1,4 @@
-# Gaussian fitting example in ImageJ and Fiji macro script.
+# N-Dimensional Gaussian fitting in ImageJ and Fiji.
 
 
 Written by Dominic Waithe. University of Oxford. Follow me on Twitter at @dwaithe: https://twitter.com/dwaithe
@@ -7,7 +7,7 @@ Copyright (c) 2016 Dominic Waithe.
 
 #### Introduction:
 
-Gaussian fitting is one of the most common procedures to perform in N-Dimensional signal analysis (i.e. 1-D sequences, 2-D images and 3-D volumes). The focus of this page is to provide ImageJ/Fiji macro scripts which can facilitate fitting of Gaussians to intensity data.
+Gaussian fitting is one of the most common procedures to perform in N-Dimensional signal analysis (i.e. 1-D sequences, 2-D images and 3-D volumes). The focus of this page is to provide ImageJ/Fiji macro scripts which can facilitate fitting of Gaussians to intensity data of varying types. As the dimensions of a signal being studied increase so do the degrees of freedom. In this page enhanced scripts will be added which can fit elliptical gaussians as well as visual examples of Gaussian functions with different anisotropies. 
 
 ##### General Requirements:
 Macros written for Fiji/ImageJ. If don't have Fiji, you can download  it here: imagej.net/Fiji/Downloads
