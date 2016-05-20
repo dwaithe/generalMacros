@@ -13,6 +13,7 @@ Open both files in Fiji/Imagej by dragging to the toolbar.
 
 #### 2D_GaussFit.ijm 
 with example file:
+
 ![alt text](https://github.com/dwaithe/generalMacros/blob/master/gaussian_fitting/2D_Gaus_sig4.png "Example image")
 
 
