@@ -11,5 +11,5 @@ The first stage in the maxima finding algorithm is to find the local maxima. In 
 
 This implementation doesn't yet support exclusion of edge maxima or the varied outputs available for the ImageJ/Fiji Maxima plugin.
 
-Comparison of Python and Fiji implementation
+Comparison of Python and Fiji implementation using image 002eggs.png
 ![alt text](fijiversusPythonFindMaxima.png "Logo Title Text 1")
