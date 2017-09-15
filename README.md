@@ -10,4 +10,6 @@ This collection of macros and guides is designed to help users with tricky or in
 
 [Reimplementation of Fiji (ImageJ) find maxima algorithm in python.](https://github.com/dwaithe/generalMacros/tree/master/maximaFinding "Maxima Finding in Fiji (ImageJ) and python.")
 
+[Macro for counting foci within a region.](https://github.com/dwaithe/generalMacros/foci_in_area.ijm "Macro for counting foci within a region.")
 
+[Macro for converting a folder of images to another format.](https://github.com/dwaithe/generalMacros/file_converter.ijm "Macro for converting a folder of images to another format.")
