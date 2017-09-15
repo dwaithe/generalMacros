@@ -1,4 +1,4 @@
-#General Macros and Teaching Material for Fiji (ImageJ) and python
+# General Macros and Teaching Material for Fiji (ImageJ) and python
 
 This collection of macros and guides is designed to help users with tricky or interesting problems using the image analysis package ImageJ or Fiji.
 
