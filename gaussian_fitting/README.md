@@ -1,4 +1,4 @@
-# N-Dimensional Gaussian fitting in ImageJ and Fiji.
+# N-Dimensional Gaussian fitting in Fiji/ImageJ
 
 
 Written by Dominic Waithe. University of Oxford. Follow me on Twitter at @dwaithe: https://twitter.com/dwaithe
