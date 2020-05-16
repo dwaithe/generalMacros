@@ -9,7 +9,16 @@ The first stage in the maxima finding algorithm is to find the local maxima. In 
 * Mark all pixels considered as 'processed' as long as they are included within a valid peak region. Reset all others.
 * From the regions containing a peak, calculate the best pixel to be considered as maxima based on minimum distance calculation with all those considered equal.
 
-This implementation doesn't yet support exclusion of edge maxima or the varied outputs available for the ImageJ/Fiji Maxima plugin.
+In this repository there are two different implementations of the algorithm:  
+* find_maxima.ipynb - pure Python version of the code (slow).  
+* find_maxima_cython.ipynb - Python and Cython version of the code (super fast) which requires compilation.  
+
+To build the cython version of the code (recommended). Please naviagate to the cython_findmaxima directory and run:  
+    python setup.py build-ext --inplace  This will install the package locally (recommended).
+    To install into your Python's site-packages directory:
+    python setup.py install
+
+This implementation doesn't yet support exclusion of edge maxima or all the varied outputs available for the ImageJ/Fiji Maxima plugin.
 
 Comparison of Python and Fiji implementation using image 002eggs.png
 ![alt text](fijiversusPythonFindMaxima.png "Logo Title Text 1")
