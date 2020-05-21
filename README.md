@@ -2,7 +2,9 @@
 
 This collection of macros is to help with tricky or interesting problems using the image analysis package Fiji (ImageJ.
 ##### General Requirements:
+
 Macros written for Fiji/ImageJ. If don't have Fiji, you can download  it here: imagej.net/Fiji/Downloads
+
 ------------
 ### Contents
 - Macro script for fitting FWHM along a line. 
