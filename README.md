@@ -18,9 +18,8 @@ A bulk FWHM measuring algorithm was designed and written using ImageJ macro lang
 ------------------
 
 ### Macro script for fitting 2D Gaussians (Diagonally covariant)
-Script location in GIST: [2D_GaussFit.ijm](https://gist.github.com/dwaithe/186f910ebf58f65ebd26ff4692b00ee3)
-Example file to test script:[2D_Gaus_sig4.png](resources/2D_Gaus_sig4.png)
-Please download the script entitled 2D_GaussFit.ijm and example input 2D_Gaus_sig4.png.
+Script location in GIST: [2D_GaussFit.ijm](https://gist.github.com/dwaithe/186f910ebf58f65ebd26ff4692b00ee3).   
+Example file to test script:[2D_Gaus_sig4.png](resources/2D_Gaus_sig4.png).  
 
 with example file:
 
@@ -33,9 +32,8 @@ Based on https://en.wikipedia.org/wiki/Gaussian_function two-dimensional Gaussia
 
 
 ------------------
+### Macro for converting a folder of images to another format.
+Script location in GIST: [file_converter.ijm](https://gist.github.com/dwaithe/526eb15b06fa88e4981d70d3c1a73b60). 
+#### Description:
+Simple example script which shows how to convert .lsm files from one folder into another folder and save as ome.tiff
 
-[Macro for counting foci within a region.](https://github.com/dwaithe/generalMacros/blob/master/foci_in_area_basic.ijm "Macro for counting foci within a region.")
-
-------------------
-
-[Macro for converting a folder of images to another format.](https://github.com/dwaithe/generalMacros/blob/master/file_converter.ijm "Macro for converting a folder of images to another format.")
