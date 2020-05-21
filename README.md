@@ -3,12 +3,17 @@
 This collection of macros is to help with tricky or interesting problems using the image analysis package Fiji (ImageJ.
 ##### General Requirements:
 Macros written for Fiji/ImageJ. If don't have Fiji, you can download  it here: imagej.net/Fiji/Downloads
+------------
+### Contents
+- Macro script for fitting FWHM along a line. 
+- Macro script for fitting 2D Gaussians (Diagonally covariant)
+- Macro script for converting a folder of images to another format.
 
 
 ------------------
 
 
-### FWHM along a line. 
+### Macro script for fitting FWHM along a line. 
 Script location in GIST: [WHM_along_line_v1.ijm](https://gist.github.com/dwaithe/2b9581324e3c8caf9238765ce50127fb).  
 Example file to test script: [2.lif](https://drive.google.com/file/d/1mQ1yezSlPRWksWduzm6WNVTeg0uZU1Qs/view?usp=sharing).   
 #### Description:  
