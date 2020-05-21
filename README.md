@@ -1,6 +1,7 @@
 # General Macros for Fiji (ImageJ)
 
-This collection of macros is to help with tricky or interesting problems using the image analysis package Fiji (ImageJ.
+This collection of macros is to help with tricky or interesting problems using the image analysis package Fiji (ImageJ). For more information about Dominic and his projects please refer to his main [homepage](https://dwaithe.github.io/home/).
+
 ##### General Requirements:
 
 Macros written for Fiji/ImageJ. If don't have Fiji, you can download  it here: imagej.net/Fiji/Downloads
